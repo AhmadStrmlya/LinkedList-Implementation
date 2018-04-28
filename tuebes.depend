@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1524701301 source:d:\c++\tuebes\list_child.cpp
+	"list_child.h"
+	"stdlib.h"
+
+1524551080 d:\c++\tuebes\list_child.h
+	<iostream>
+
+1524877422 source:d:\c++\tuebes\list_parent.cpp
+	"list_parent.h"
+	<stdlib.h>
+
+1524702375 d:\c++\tuebes\list_parent.h
+	"list_relasi.h"
+	<iostream>
+
+1524532896 d:\c++\tuebes\list_relasi.h
+	"list_child.h"
+	<iostream>
+
+1524877423 source:d:\c++\tuebes\list_relasi.cpp
+	"list_relasi.h"
+
+1524878064 source:d:\c++\tuebes\main.cpp
+	<iostream>
+	<stdlib.h>
+	"list_child.h"
+	"list_parent.h"
+	"aplikasi.h"
+
+1524877470 source:d:\c++\tuebes\aplikasi.cpp
+	"aplikasi.h"
+
+1524701485 d:\c++\tuebes\aplikasi.h
+	"list_parent.h"
+	"list_child.h"
+	"list_relasi.h"
+
